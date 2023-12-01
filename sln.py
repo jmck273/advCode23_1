@@ -1,3 +1,7 @@
+'''
+As a quick note, this was done in a way to avoid replacements so as to not modify the input file
+A solution not shown here would be to replace values such as one with o1e to allow overlap, followed by filtering out non numerical values
+'''
 def getContent(fileURL):
     '''
     Getting the content of the URL. To not overwhelm the Advent of code server, I have saved
